@@ -56,7 +56,9 @@ nav a{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
-
+    border: 3px solid rgba(160, 86, 2, 0.582);
+    border-top-width: 7px;
+    border-radius: 10px;
 }
 
 .productos h2{
