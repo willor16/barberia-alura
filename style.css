@@ -1,50 +1,118 @@
-.titulo-principal{
-    padding-left: 30px;
+/*
+Menu description
+1. container-top
+    styles of diferent elements this elements are: logo, menubar
+2. contaienr-mid
+    offer and other components of html
+3. container-button
+    information of website
+*/
+
+/*container-top*/
+header{
+    background-color: antiquewhite;
+    padding: 20px 0;
+}
+.caja{
+    position: relative;
+    width: 940px;
+    margin:0 auto;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+    right: 0;
 }
 
-#banner{
-    width:100%;
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
 }
 
-.principal{
-    background: #CCCCCC;
-    padding: 20px;
+
+
+nav a{
+    text-transform: uppercase;
+    color: rgb(119, 64, 0);
+    font-weight: bold; /*esto es para negrita*/
+    font-size: 22px;
+    text-decoration: none;
 }
 
-.titulo-centralizado{
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li{
+    display: inline-block;
     text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 3px solid rgba(160, 86, 2, 0.582);
+    border-top-width: 7px;
+    border-radius: 10px;
 }
 
-p{
-    text-align: center;
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
 }
 
-em strong{
-    color:red;
+.producto-descripcion{
+    font-size: 18px;
 }
 
-#mision{
+.producto-precio{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+nav a:hover{
+        color: #d68100;
+        text-decoration: underline;
+}
+
+
+.productos li:hover{
+    border-color: rgb(122, 59, 0);
+    color: rgb(122, 59, 0);
+}
+
+.productos li:hover h2{
+    font-size: 34px;
+}
+
+.productos li:hover .producto-descripcion{
     font-size: 20px;
 }
-
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
+.productos li:hover .producto-precio{
+    font-size: 22px;
+}
+.productos li:active{
+    border-color: rgb(122, 59, 0);
 }
 
-.items{
-    font-style: italic;
+footer{
+    padding: 40px 0;
+    background: url(./imagenes/bg.jpg);
+    color: white;
+    text-align: center;
+    align-items: center;
 }
 
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
+.footer-parrafo{
+    display: block;
+    padding: 5px 0;
 }
 
-.imagenDiferenciales{
-    width: 50%;
+.img-footer-logo:hover {
+    border: 2px solid white;
 }
-
-
