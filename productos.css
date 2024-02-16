@@ -36,7 +36,7 @@ nav li{
 
 nav a{
     text-transform: uppercase;
-    color: brown;
+    color: rgb(119, 64, 0);
     font-weight: bold; /*esto es para negrita*/
     font-size: 22px;
     text-decoration: none;
@@ -73,4 +73,28 @@ nav a{
 .producto-precio{
     font-size: 20px;
     margin-top: 10px;
+}
+
+nav a:hover{
+        color: #d68100;
+        text-decoration: underline;
+}
+
+.productos li:hover{
+    border-color: rgb(122, 59, 0);
+    color: rgb(122, 59, 0);
+}
+
+.productos li:hover h2{
+    font-size: 34px;
+}
+
+.productos li:hover .producto-descripcion{
+    font-size: 20px;
+}
+.productos li:hover .producto-precio{
+    font-size: 22px;
+}
+.productos li:active{
+    border-color: rgb(122, 59, 0);
 }
