@@ -80,6 +80,7 @@ nav a:hover{
         text-decoration: underline;
 }
 
+
 .productos li:hover{
     border-color: rgb(122, 59, 0);
     color: rgb(122, 59, 0);
@@ -97,4 +98,21 @@ nav a:hover{
 }
 .productos li:active{
     border-color: rgb(122, 59, 0);
+}
+
+footer{
+    padding: 40px 0;
+    background: url(./imagenes/bg.jpg);
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.footer-parrafo{
+    display: block;
+    padding: 5px 0;
+}
+
+.img-footer-logo:hover {
+    border: 2px solid white;
 }
