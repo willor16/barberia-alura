@@ -138,7 +138,7 @@ form label{
     width: 55%;
 }
 
-form input{
+form input, input textarea{
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
@@ -148,3 +148,13 @@ form input{
 form .enviar{
     width: 30%;
 }
+
+.input-padron{
+    display: inline-block;
+    margin: 0 0 10px;   
+    padding: 5px 25px;
+    width: 50;
+}
+
+
+
