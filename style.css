@@ -152,11 +152,12 @@ form .enviar{
 .input-padron{
     display: inline-block;
     margin: 0 0 10px;   
-    padding: 5px 25%;
+    padding: 5px 21%;
     width: 30% 0;
     align-items: center;
-    
 }
+
+
 
 .p-metodo-de-contacto{
     width: auto;
@@ -221,3 +222,37 @@ form .item-option-individual{
     transform: scale(1.2);
     background-color: rgb(92, 49, 0);
 }
+
+.table{
+    display: inline-block;
+    margin: auto;
+    padding: 30px 30%;
+}
+
+.table p{
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -50px;
+    padding: 20px;
+}
+
+thead th{
+    background-color: black;
+    color: white;
+    border: solid black 2px;
+    width: 30%;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+tbody td{
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(59, 32, 0);
+    border: solid white 2px;
+}
+
