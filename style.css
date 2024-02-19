@@ -258,3 +258,17 @@ tbody td{
     border: solid white 2px;
 }
 
+/*styles of home*/
+.banner{
+    width: 100%;
+    
+}
+
+.banner:hover{
+    opacity: 80%;
+}
+
+.titulo-principal{
+    font-size: 2cm;
+    text-align: center;
+}
