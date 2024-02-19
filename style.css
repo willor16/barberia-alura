@@ -290,3 +290,10 @@ tbody td{
     font-style: italic;
     font-weight: bold;
 }
+.mapa p{
+    padding: 0 0 2em;
+    text-align: center;
+}
+.mapa{
+padding: 3cm 0;
+}
